@@ -35,10 +35,6 @@ public class Main {
         String arithmeticOperation = in.nextLine();
         operators = arithmeticOperation.split(" ");
 
-
-
-
-
         a = linearSearch(RimNum,operators[0]) ;
         try {
             b = linearSearch(RimNum,operators[2]) ;
@@ -46,7 +42,6 @@ public class Main {
             System.err.println("Операторы не разделены пробелом!");
             System.exit(0);
         }
-
 
         if ((a!=-1)&&(b!=-1)) isRim = true;
 
